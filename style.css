@@ -94,9 +94,10 @@ body{
     display: flex;
     flex-direction: row;
     width: 1280px;
-    height: 474px;
+    height: 603px;
     margin-top: 80px;
     padding-left: 80px;
+    
 }
 .tavsarti{
     font-family: Raleway;
@@ -180,6 +181,8 @@ body{
     justify-content: center;
     flex-direction: column;
     padding-left: 80px;
+    aspect-ratio: 3 / 2;
+    clip-path: ellipse(85% 100% at 50% 100%);
 }
 .bio{
     background-color: white;
@@ -194,7 +197,7 @@ body{
     position: absolute;
     width: 542px;
     height: 409px;
-    top: 772px;
+    top: 904px;
     right:0px;    
 }
 .blefi{
@@ -308,4 +311,8 @@ body{
     height: 39px;
     top: 1832px;
     left: 204px;
+}
+.foto{
+    width: 542px;
+    height: 409px;
 }
