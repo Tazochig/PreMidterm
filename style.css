@@ -1,0 +1,311 @@
+body{
+    display: flex;
+    /* height: 100vh; */
+    /* width: 100vh; */
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 1280px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-top: 65px; */
+    margin-top: 65px;
+    padding-left: 80px;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    width: 270px;
+    height: 19px;
+    font-size: 16px;
+    line-height: 18px;
+    gap: 50px;
+    font-weight: 400;
+    align-items: center;
+    font-family: Raleway;
+}
+.surati{
+    height: 50px;
+    width: 166px;
+    
+}
+.satauri{
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+}
+.shigtavsi{
+    font-family: Open Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.53125px;
+    text-align: left;
+    
+}
+.buttons{
+    width: 480px;
+    height: 45px;
+    display: flex;
+    gap: 19px;
+}
+.search{
+    width: 300px;
+    height: 45px;
+    border: solid #07043B 1px;
+    border-radius: 3.13px;    
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    letter-spacing: 0.46666669845581055px;
+    text-align: left;
+    color: #C2C2C2;
+    padding-left: 21px;
+}
+.gilaki{
+    width: 200px;
+    height: 45px;
+    border-radius: 3.13px;    
+    background: #2F65F8;
+    border: none;
+    color: white;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.44px;
+    text-align: left;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.abra{
+    display: flex;
+    flex-direction: row;
+    width: 1280px;
+    height: 474px;
+    margin-top: 80px;
+    padding-left: 80px;
+}
+.tavsarti{
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.96px;
+    text-align: left;
+    color: #07043B;    
+}
+.text1{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #07043B;
+}
+.text2{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;    
+    color: #07043B;
+}
+.text3{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+    color: #3DA08F;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+}
+.oriwertili{
+    font-family: Nunito Sans;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 67.5px;
+    text-align: left;
+    color: #07043B; 
+    height: 16px;       
+}
+.biograpia{
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    text-align: left;    
+}
+.saxeli{
+    font-family: Open Sans;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 14.98px;
+    letter-spacing: 0.550000011920929px;
+    text-align: left;
+    color: #07043B;    
+    height: 3px;
+}
+.status{
+    font-family: Open Sans;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+}
+.badge{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.Shinaarsi{
+    background-color: #F8F8FE;
+    height: 741px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 80px;
+}
+.bio{
+    background-color: white;
+    width: 323px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: black 1px 1px 6px;
+    margin-top: 50px;
+    padding-left: 33px;
+}
+.foto2{
+    position: absolute;
+    width: 542px;
+    height: 409px;
+    top: 772px;
+    right:0px;    
+}
+.blefi{
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;    
+    color: white;
+}   
+.blefi2{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+     color: white;
+}
+.chasaweri{
+    width: 400px;
+    height: 44px;
+    border-radius: 3.13px;
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.09px;
+    text-align: left;
+    background-color: white;    
+    display: flex;
+    padding-left:25px;
+    align-items: center;
+    color: #C0C0C0;
+}
+.gasagzavni{
+    background-color: #2F65F8;
+    width: 200px;
+    height: 48px;
+    border-radius: 3.13px;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.44px;
+    text-align: center;
+    width: 200px;
+    height: 44px;    
+    color: white;            
+    border: none;
+    cursor: pointer;
+}
+.prefooter{
+    background-color: #575988;
+    display: flex;
+    align-items: center;
+    gap: 140px;
+    height: 370px;
+    padding-left: 80px;
+
+}
+.Sendmelocation{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.footer{
+    width: 1440px;
+    height: 391px;
+    background-color: #07043B;    
+    padding-left: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.linkebi{
+    display: flex;
+    flex-direction: column;
+}
+.linkebi2{
+    display: flex;
+    flex-direction: column;
+}
+.araperi{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+    color: white;    
+}
+.peri{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;   
+    display: flex; 
+}
+.rekvizitebi{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.wertili{
+    color: #07043B;
+}
+.surati2{
+    position: absolute;
+    width: 124px;
+    height: 39px;
+    top: 1832px;
+    left: 204px;
+}
